@@ -4,7 +4,7 @@ import os           # os 모듈을 사용해서 환경변수에 접근 (키값 �
 from openai import OpenAI
 
 
-
+# 이 컴퓨터의 환경변수의 키값을 읽어온다
 #               환경설정에 접근 (내가정한변수이름)
 openai_api_key = os.getenv("OPENAI_API_KEY")  
 

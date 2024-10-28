@@ -5,7 +5,7 @@ from openai import OpenAI
 import uuid
 import requests     # pip install requests
 
-
+# 이 컴퓨터의 환경변수의 키값을 읽어온다
 #               환경설정에 접근 (내가정한변수이름)
 openai_api_key = os.getenv("OPENAI_API_KEY")  
 
